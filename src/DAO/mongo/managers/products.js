@@ -1,6 +1,5 @@
 import productModel from "../models/product.js";
 
-
 export default class ProductManager {
 
     categories = async () => {
@@ -81,5 +80,4 @@ export default class ProductManager {
         }
 
     }
-
 }

@@ -6,7 +6,6 @@ const pm = new ProductManager()
 
 class CartManager {
 
-
     getCarts = async () => {
         try {
             return await cartModel.find()
